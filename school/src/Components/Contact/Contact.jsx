@@ -46,7 +46,7 @@ const Contact = () => {
           <input type="text" name="name" required />
           <label>Mobile Number </label>
           <input type="tel" name="mobile" required />
-          <label>Write Your</label>
+          <label>Write a Message</label>
           <textarea name="message" rows="6" required></textarea>
           <button type="submit" className="btn dark-btn">
             Submit Now

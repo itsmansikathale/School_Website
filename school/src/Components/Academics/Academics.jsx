@@ -4,23 +4,25 @@ const Academics = () => {
   return (
     <div className="academics">
       {/* <img src="" alt="" /> */}
-      <h3>Academics</h3>
 
-      <h5>Curriculam</h5>
-      <h6>Primary (Grades 1 - 5)</h6>
+      <h2>Curriculam</h2>
+      <br />
+      <h4>Primary (Grades 1 - 5)</h4>
       <p>
         English, Mathematics, Science, Social Studies, Computer Science, Art,
         Physical Education
       </p>
       <br />
       <br />
-      <h6>Secondary (Gardes 6 - 10)</h6>
+      <h4>Secondary (Gardes 6 - 10)</h4>
       <p>
         English, Mathematics, Science(PCM), Social Studies, Computer Science,
         Physical Education, Art
       </p>
+      <br />
+      <br />
 
-      <h6>Senior Secondary (Gardes 11 - 12)</h6>
+      <h4>Senior Secondary (Gardes 11 - 12)</h4>
       <p>
         Science Stream : Physics, Chemistry, Biology, Mathematics , Computer
         Science, English

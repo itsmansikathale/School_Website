@@ -23,7 +23,7 @@ a {
   cursor: pointer;
 }
 .btn {
-  background: #212ea0;
+  background: #a06321;
   color: wheat;
   padding: 14px 25px;
   font-size: 18px;
@@ -37,6 +37,19 @@ a {
   justify-content: center;
 }
 .btn.dark-btn {
-  background: #212ea0;
+  background: #a06321;
   color: wheat;
+}
+
+/* media query */
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn {
+    padding: 14px 22px;
+  }
 }

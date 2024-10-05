@@ -1,14 +1,17 @@
 import React from "react";
 import "./About.css";
-import logo2 from "../../assets/logo2.png";
+// import logo2 from "../../assets/logo2.png";
+import { LiaSchoolSolid } from "react-icons/lia";
 
 const About = () => {
   return (
     <div className="about">
-      <img src={logo2} alt="" />
+      {/* <img src={logo2} alt="" /> */}
+
       {/* <h3>About Us</h3> */}
       <div className="about-left">
-        <img src="" alt="" className="" />
+        <LiaSchoolSolid fontSize="150px" color=" #a06321" />
+        <h2 className="logo">SPRINGDALE PUBLIC SCHOOL</h2>
         {/* <img src={about - img} alt="" className="about-img" />
         <img src={play - button} alt="" className="play-button" /> */}
       </div>
