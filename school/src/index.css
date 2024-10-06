@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #ffffff;
+  background: #d7d4cf;
 }
 a {
   text-decoration: none;
@@ -18,15 +18,15 @@ a {
 }
 
 .container {
-  padding-left: 3%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   cursor: pointer;
 }
 .btn {
   background: #a06321;
   color: wheat;
   padding: 14px 25px;
-  font-size: 18px;
+  font-size: 15px;
   border-radius: 30px;
   cursor: pointer;
   border: 0;

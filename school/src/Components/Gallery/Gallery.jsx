@@ -8,6 +8,7 @@ import p5 from "../../assets/p5.webp";
 import p6 from "../../assets/p6.webp";
 import p7 from "../../assets/p7.jpg";
 import p8 from "../../assets/p8.jpg";
+import play from "../../assets/play.png";
 
 const Gallery = () => {
   return (
@@ -18,7 +19,6 @@ const Gallery = () => {
         <img src={p3} alt="" />
         <img src={p4} alt="" />
       </div>
-
       <button className="btn dark-btn">See More</button>
     </div>
   );

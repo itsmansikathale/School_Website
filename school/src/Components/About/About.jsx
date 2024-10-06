@@ -10,8 +10,8 @@ const About = () => {
 
       {/* <h3>About Us</h3> */}
       <div className="about-left">
-        <LiaSchoolSolid fontSize="150px" color=" #a06321" />
-        <h2 className="logo">SPRINGDALE PUBLIC SCHOOL</h2>
+        <LiaSchoolSolid fontSize="190px" color=" #a06321" />
+        <h3 className="logo">SPRINGDALE PUBLIC SCHOOL</h3>
         {/* <img src={about - img} alt="" className="about-img" />
         <img src={play - button} alt="" className="play-button" /> */}
       </div>

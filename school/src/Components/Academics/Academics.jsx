@@ -1,20 +1,20 @@
 import React from "react";
-
+import academics from "../../assets/academics.jpeg";
 const Academics = () => {
   return (
-    <div className="academics">
+    <div className="academics container">
       {/* <img src="" alt="" /> */}
 
-      <h2>Curriculam</h2>
+      <h4>Curriculam 📚</h4>
       <br />
-      <h4>Primary (Grades 1 - 5)</h4>
+      <h5>Primary (Grades 1 - 5)</h5>
       <p>
         English, Mathematics, Science, Social Studies, Computer Science, Art,
         Physical Education
       </p>
       <br />
       <br />
-      <h4>Secondary (Gardes 6 - 10)</h4>
+      <h5>Secondary (Gardes 6 - 10)</h5>
       <p>
         English, Mathematics, Science(PCM), Social Studies, Computer Science,
         Physical Education, Art
@@ -22,7 +22,7 @@ const Academics = () => {
       <br />
       <br />
 
-      <h4>Senior Secondary (Gardes 11 - 12)</h4>
+      <h5>Senior Secondary (Gardes 11 - 12)</h5>
       <p>
         Science Stream : Physics, Chemistry, Biology, Mathematics , Computer
         Science, English
@@ -33,18 +33,6 @@ const Academics = () => {
         Commerce Stream : Accountancy, Business Studies, Economics, Mathematics,
         English
       </p>
-
-      {/* <h5>Teaching Methodologies</h5>
-      <p>
-        "We use a blend of traditional and modern teaching techniques to cater
-        to different learning styles."
-      </p>
-
-      <h5>Educational Resources</h5>
-      <p>
-        "Digital classrooms, interactive learning modules, and access to online
-        educational platforms."
-      </p> */}
     </div>
   );
 };

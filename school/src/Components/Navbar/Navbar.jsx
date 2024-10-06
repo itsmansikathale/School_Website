@@ -28,7 +28,7 @@ const Navbar = () => {
       {/* <h3>Springdale Public School</h3> */}
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li className="logo1">
-          <LiaSchoolSolid fontSize="60px" color=" #a06321" />
+          <LiaSchoolSolid fontSize="80px" width="160px" color=" #a06321" />
         </li>
         <li>
           <Link to="home" smooth={true} offset={0} duration={500}>
@@ -56,11 +56,7 @@ const Navbar = () => {
             Faculty
           </Link>
         </li>
-        <li>
-          <Link to="students" smooth={true} offset={-260} duration={500}>
-            Students
-          </Link>
-        </li>
+
         <li>
           <Link to="gallery" smooth={true} offset={-150} duration={500}>
             Gallery

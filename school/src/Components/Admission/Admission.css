@@ -1,0 +1,16 @@
+.admission {
+  margin: 60px auto;
+  align-content: center;
+  justify-content: space-between;
+  width: 80%;
+  display: flex;
+}
+/* 
+.col-left {
+  flex-basis: 50%;
+  position: relative;
+}
+.col-right {
+  flex-basis: 100%;
+  width: 100%;
+} */

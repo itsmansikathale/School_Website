@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
@@ -9,7 +9,6 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Admission from "./Components/Admission/Admission";
 import Faculty from "./Components/Faculty/Faculty";
-import Students from "./Components/Students/Students";
 
 const App = () => {
   return (
@@ -29,10 +28,7 @@ const App = () => {
       <Title subTitle="FACULTY" title="Profiles" />
       <Faculty />
 
-      <Title subTitle="STUDENTS" />
-      <Students />
-
-      <Title subTitle="GALLERY" />
+      <Title subTitle="GALLERY" title="Photos" />
       <Gallery />
 
       <Title subTitle="Contact Us" title="Get In Touch" />

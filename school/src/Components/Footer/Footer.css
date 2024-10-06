@@ -3,6 +3,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 2px solid #797979;
+  border-top: 2px solid #7d7777;
   padding: 20px 0;
+  color: rgb(155, 100, 33);
+}
+/*  Media query */
+@media (max-width: 600px) {
+  .footer {
+    display: block;
+    text-align: center;
+    margin: 10px;
+  }
 }
