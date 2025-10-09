@@ -1,15 +1,15 @@
 nav {
   width: 100%;
   /* background: #000000; */
-  color: rgb(107, 103, 103);
-  padding: 4px 0;
+  color: rgb(255, 255, 255);
+  padding: 20px 0;
   position: fixed;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-weight: 500;
+  font-weight: 350;
   z-index: 10;
 }
 
@@ -55,6 +55,12 @@ nav h1 {
   display: none;
   width: 20px;
   /* cursor: pointer; */
+}
+
+.btn {
+  width: 130px;
+  margin-left: 120px;
+  /* size: 10px; */
 }
 /* Media Query */
 

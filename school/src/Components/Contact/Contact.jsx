@@ -7,6 +7,23 @@ const Contact = () => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
+    const name = formData.get("name").trim();
+    const mobile = formData.get("mobile").trim();
+    const message = formData.get("message").trim();
+
+    //  Validation Condition
+    const mobilePattern = /^[0-9]&/;
+    if (!name || !mobile || !message) {
+      setResult("Please Fillout All The Fields.");
+      return;
+    }
+
+    if (!mobilePattern.test(mobile)) {
+      setResult("Please Enter A Valid Mobile Number.");
+    }
+
+    // If Validation Success
+    setResult("Sending....");
 
     formData.append("access_key", "b26aa092-64ef-47dc-89ad-89e8503712fb");
 

@@ -27,9 +27,9 @@ const Navbar = () => {
       {/* <img src={logo} alt="Logo" className="logo" /> */}
       {/* <h3>Springdale Public School</h3> */}
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
-        <li className="logo1">
+        {/* <li className="logo1">
           <LiaSchoolSolid fontSize="80px" width="160px" color=" #a06321" />
-        </li>
+        </li> */}
         <li>
           <Link to="home" smooth={true} offset={0} duration={500}>
             Home
